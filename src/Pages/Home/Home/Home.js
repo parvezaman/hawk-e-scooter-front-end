@@ -1,9 +1,11 @@
 import React from "react";
+import Users from "../../Users/Users";
+import Navigaton from "../Navigation/Navigation";
 
 const Home = () => {
   return (
     <div>
-      <h1>hello</h1>
+      <Navigaton></Navigaton>
     </div>
   );
 };

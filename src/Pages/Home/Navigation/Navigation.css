@@ -1,0 +1,16 @@
+.bgNav {
+  background-color: #20b2aa;
+}
+.navBrand {
+  color: white;
+  font-weight: 900;
+}
+.navStyle {
+  text-decoration: none;
+  color: white;
+}
+.navStyle:hover {
+  border-bottom: 2px solid tomato;
+  color: white;
+  transition: 0.5s;
+}
