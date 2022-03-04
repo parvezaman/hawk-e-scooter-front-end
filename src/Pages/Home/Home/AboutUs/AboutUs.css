@@ -21,7 +21,7 @@
 .descriptionSetion h2 {
   font-weight: 700;
 }
-.descriptionSetion button {
+.descriptionSetion .btnVariable {
   margin-top: 50px;
   width: 200px;
   background-color: #06d286;
@@ -29,6 +29,6 @@
   font-weight: 700;
   padding: 10px 20px;
 }
-.descriptionSetion button:hover {
+.descriptionSetion .btnVariable:hover {
   background-color: #08f8a0;
 }
