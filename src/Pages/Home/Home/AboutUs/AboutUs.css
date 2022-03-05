@@ -1,0 +1,34 @@
+.MainAbout {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 200px;
+}
+.imgAbout {
+}
+.imgAbout img {
+  height: 90%;
+  border-radius: 20px;
+}
+.descriptionSetion {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-direction: column;
+}
+.descriptionSetion h5 {
+  color: #06d286;
+}
+.descriptionSetion h2 {
+  font-weight: 700;
+}
+.descriptionSetion button {
+  margin-top: 50px;
+  width: 200px;
+  background-color: #06d286;
+  color: white;
+  font-weight: 700;
+  padding: 10px 20px;
+}
+.descriptionSetion button:hover {
+  background-color: #08f8a0;
+}
