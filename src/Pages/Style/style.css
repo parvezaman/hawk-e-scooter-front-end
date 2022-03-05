@@ -1,0 +1,23 @@
+.leftbg {
+    background-image: url(../../Images/kickScooter.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 800px;
+
+}
+.rightbg {
+    background-image: url(../../Images/travelers.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 800px;
+}
+
+.ex-center {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    background-color: rgba(0, 0, 0, 0.638);
+    width: 100%;
+}
