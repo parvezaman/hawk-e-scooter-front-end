@@ -21,3 +21,18 @@
     background-color: rgba(0, 0, 0, 0.638);
     width: 100%;
 }
+
+.card {
+    padding: 30px 20px;
+    border: 0;
+}
+.cardDetails {
+    padding: 30px 20px;
+    border-radius: 10px;
+    transition: 0.5s ease-in-out;
+    transition: 0.5s ease-out;
+}
+.cardDetails:hover {
+    box-shadow: 0 0 20px 8px #d0d0d0;
+    
+}
