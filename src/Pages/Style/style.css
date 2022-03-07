@@ -36,3 +36,23 @@
     box-shadow: 0 0 20px 8px #d0d0d0;
     
 }
+.bg-img {
+    background: url('/src/Images/world.png'), #6DB3F2;
+    height: 600px;
+    margin: 100px 0;
+}
+
+.imgSize {
+    width: 75%;
+    height: 80%;
+    margin: 0 auto;
+    display: block;
+    margin-top: -55px;
+}
+.ap-center {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 500px;
+}
