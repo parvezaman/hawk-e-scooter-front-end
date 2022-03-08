@@ -56,3 +56,16 @@
     justify-content: center;
     height: 500px;
 }
+.feedbg {
+    background-image: url('/src/Images/spending.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
+}
+.feedbacktext {
+    text-align: center;
+    color: white;
+    padding: 100px 0;
+    background-color: rgba(0, 0, 0, 0.652);
+}
