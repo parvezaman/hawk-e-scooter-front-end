@@ -24,7 +24,7 @@ const AboutUs = () => {
 
         <div className="descriptionSetion col-lg-6 col-md-6 col-sm-12">
           <h5 data-aos="fade-left" data-aos-duration="3000">
-            ABOUT SCOOTER
+            ABOUT HAWK E-SCOOTER
           </h5>
           <h2>
             Rental Service With A Wide Range Of Vehicles To Accommodate You

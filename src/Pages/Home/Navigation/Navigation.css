@@ -8,6 +8,7 @@
 .navStyle {
   text-decoration: none;
   color: white;
+  padding-right: 30px;
 }
 .navStyle:hover {
   border-bottom: 2px solid tomato;

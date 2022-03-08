@@ -3,7 +3,7 @@
 }
 .main-div {
   position: relative;
-  opacity: 0.7;
+  opacity: 0.9;
 }
 .headerMian {
   position: absolute;
@@ -11,7 +11,7 @@
   left: 0;
   margin-top: 15%;
   opacity: 1;
-  z-index: 1;
+  z-index: 1.5;
 }
 .headerMian img {
   width: 30%;
