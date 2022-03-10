@@ -9,13 +9,28 @@ const Navigaton = () => {
       <Navbar collapseOnSelect expand="lg" fixed="top" bg="dark" variant="dark">
         <Container>
           <Navbar.Brand href="#home">
-            <h3 className="title ">HAK</h3>
+            <h3 className="title ">HAWK</h3>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto"></Nav>
             <Nav>
-              <Link className="navStyle" to="/">
+              <Link className="navStyle" to="/home">
+                Home
+              </Link>
+              <Link className="navStyle" to="/ebooking">
+                E-Booking
+              </Link>
+              <Link className="navStyle" to="/pakage">
+                Pakage
+              </Link>
+              <Link className="navStyle" to="/ride">
+                How to Ride
+              </Link>
+              <Link className="navStyle" to="/contct">
+                Contact us
+              </Link>
+              <Link className="navStyle" to="/users">
                 Dashbord
               </Link>
             </Nav>
