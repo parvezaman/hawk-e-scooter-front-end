@@ -15,8 +15,14 @@ const Navigaton = () => {
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto"></Nav>
             <Nav>
-              <Link className="navStyle" to="/">
+              <Link className="navStyle me-3" to="/">
                 Dashbord
+              </Link>
+              <Link className="navStyle me-3" to="/howtowork">
+                How To Work
+              </Link>
+              <Link className="navStyle me-3" to="/users">
+                Registration
               </Link>
             </Nav>
           </Navbar.Collapse>

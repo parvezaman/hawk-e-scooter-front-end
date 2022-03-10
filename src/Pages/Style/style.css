@@ -70,3 +70,13 @@
     padding: 100px 0;
     background-color: rgba(0, 0, 0, 0.652);
 }
+
+.centerItem {
+    display: flex;
+    align-items: center;
+}
+.centerITemBg {
+    background-color: steelblue;
+    color: white;
+    border-radius: 10px;
+}
