@@ -1,0 +1,72 @@
+.leftbg {
+    background-image: url(../../Images/kickScooter.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 800px;
+
+}
+.rightbg {
+    background-image: url(../../Images/travelers.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 800px;
+}
+
+.ex-center {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    background-color: rgba(0, 0, 0, 0.638);
+    width: 100%;
+}
+
+.card {
+    padding: 30px 20px;
+    border: 0;
+}
+.cardDetails {
+    padding: 30px 20px;
+    border-radius: 10px;
+    transition: 0.5s ease-in-out;
+    transition: 0.5s ease-out;
+}
+.cardDetails:hover {
+    box-shadow: 0 0 20px 8px #d0d0d0;
+    
+}
+.bg-img {
+    background: url('/src/Images/world.png'), #6DB3F2;
+    height: 550px;
+    margin: 100px 0;
+}
+
+.imgSize {
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    margin-top: -55px;
+}
+.ap-center {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 500px;
+    margin-left: 25%;
+}
+.feedbg {
+    background-image: url('/src/Images/spending.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
+}
+.feedbacktext {
+    text-align: center;
+    color: white;
+    padding: 100px 0;
+    background-color: rgba(0, 0, 0, 0.652);
+}

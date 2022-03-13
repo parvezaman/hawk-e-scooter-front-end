@@ -4,11 +4,17 @@ import { Link, useLocation, useNavigate } from 'react-router-dom';
 import Divider from '@mui/material/Divider';
 import ssu from './../../Images/teacherSignin.png'
 import { TextField } from '@mui/material';
+import GoogleIcon from '@mui/icons-material/Google';
+import FacebookIcon from '@mui/icons-material/Facebook';
 
 const Users = () => {
     const [loginData, setLoginData] = useState({});
     const location = useLocation();
     const navigate = useNavigate();
+
+    // const toggleBank = e => {
+    //     setIsToggle(e.target.checked);
+    // }
 
     const handleOnBlur = (e) => {
         const field = e.target.name;
@@ -43,10 +49,10 @@ const Users = () => {
                 </Col>
                 <Col xs={12} sm={12} md={12} lg={6} xl={6}>
                     <div className='formside py-5 my-5'>
-                            <h4 className='fw-bold mb-5 text-center'>Create a Student Account</h4>
+                            <h4 className='fw-bold mb-5 text-center'>Create a Account</h4>
                             <div className='d-flex justify-content-evenly'>
-                                <Button className='user-btn'><i className="fab fa-google mx-2"></i> Continue With Google</Button>
-                                <Button className='user-btn'><i className="fab fa-facebook mx-2"></i> Continue With Facebook</Button>
+                                <Button className='user-btn'><GoogleIcon /> Continue With Google</Button>
+                                <Button className='user-btn'><FacebookIcon /> Continue With Facebook</Button>
                             </div>
                         
                         <Divider className='my-3'>OR</Divider>

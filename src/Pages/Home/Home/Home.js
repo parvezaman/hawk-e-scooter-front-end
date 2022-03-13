@@ -5,6 +5,12 @@ import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
 import Navigaton from "../Navigation/Navigation";
 import AboutUs from "./AboutUs/AboutUs";
+import AppBanner from "./AppBanner";
+import Collections from "./Collections";
+import Experiance from "./Experiance";
+import Feedback from "./Feedback";
+import Header from "./Header/Header";
+import LetestBlog from "./LetestBlog";
 
 const Home = () => {
   return (
@@ -12,7 +18,12 @@ const Home = () => {
       <Navigaton></Navigaton>
       <Header></Header>
       <AboutUs></AboutUs>
-      <Footer></Footer>
+      <Experiance />
+      <Collections />
+      <AppBanner />
+      <Feedback />
+      <LetestBlog />
+      <Footer/>
     </div>
   );
 };

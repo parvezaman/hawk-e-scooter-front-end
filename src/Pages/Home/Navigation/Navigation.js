@@ -18,16 +18,16 @@ const Navigaton = () => {
               <Link className="navStyle" to="/home">
                 Home
               </Link>
-              <Link className="navStyle" to="/booking">
+              <Link className="navStyle" to="/ebooking">
                 E-Booking
               </Link>
-              <Link className="navStyle" to="/pakage">
-                Pakage
+              <Link className="navStyle" to="/package">
+                Package
               </Link>
               <Link className="navStyle" to="/ride">
                 How to Ride
               </Link>
-              <Link className="navStyle" to="/contact">
+              <Link className="navStyle" to="/contct">
                 Contact us
               </Link>
               <Link className="navStyle" to="/users">
