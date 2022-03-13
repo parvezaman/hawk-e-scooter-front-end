@@ -21,8 +21,8 @@ const Navigaton = () => {
               <Link className="navStyle" to="/ebooking">
                 E-Booking
               </Link>
-              <Link className="navStyle" to="/pakage">
-                Pakage
+              <Link className="navStyle" to="/package">
+                Package
               </Link>
               <Link className="navStyle" to="/ride">
                 How to Ride
