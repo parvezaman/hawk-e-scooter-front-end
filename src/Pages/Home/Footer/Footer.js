@@ -1,10 +1,11 @@
 import React from "react";
 import "./Footer.css";
 import { FaFacebook, FaWhatsapp, FaTwitter } from "react-icons/fa";
+import { IoLogoInstagram } from "react-icons/io";
 
 const Footer = () => {
   return (
-    <div className="container">
+    <div className="container mb-5">
       <h1 className="mt-5 mb-5" style={{ color: "rgb(4, 4, 54)" }}>
         Hawk
       </h1>
@@ -27,11 +28,29 @@ const Footer = () => {
         </div>
       </div>
       <hr />
-      <div className="socai-link"></div>
-      <p>Socila media</p>
-      <p>Privacy Notice</p>
-      <div className="socail_icon">
-        <FaFacebook />
+      {/* socail media section */}
+      <div className="socai-link row mt-3 mb-3">
+        <p className="col-lg-4 col-md-4 col-sm-6">Socila media</p>
+        <p className="col-lg-4 col-md-4 col-sm-6">Privacy Notice</p>
+        <div className="socail-icon col-lg-4 col-md-4 col-sm-6 ">
+          <span>
+            <FaFacebook style={{ fontSize: "30px", marginRight: "15px" }} />
+          </span>
+          <span>
+            {" "}
+            <FaWhatsapp style={{ fontSize: "30px", marginRight: "15px" }} />
+          </span>
+          <span>
+            {" "}
+            <FaTwitter style={{ fontSize: "30px", marginRight: "15px" }} />
+          </span>
+          <span>
+            {" "}
+            <IoLogoInstagram
+              style={{ fontSize: "30px", marginRight: "15px" }}
+            />
+          </span>
+        </div>
       </div>
     </div>
   );
