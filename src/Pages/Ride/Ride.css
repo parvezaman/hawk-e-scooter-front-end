@@ -1,0 +1,13 @@
+.rideHeader1{
+    font-size: 68px;
+    line-height: 64px;
+    /* color: rgba(14,26,80,var(--tw-text-opacity)); */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: #AF162A;
+}
+
+
+h5{
+    color: rgb(75, 75, 75);
+}
