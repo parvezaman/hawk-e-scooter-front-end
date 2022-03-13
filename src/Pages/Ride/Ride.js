@@ -10,7 +10,8 @@ import step6 from './../../Images/step6.svg'
 import step7 from './../../Images/step7.svg'
 import step8 from './../../Images/step8.svg'
 import Navigaton from '../Home/Navigation/Navigation';
-import './Ride.css'
+import './Ride.css';
+import Footer from '../Footer/Footer'
 
 const Ride = () => {
     return (
@@ -136,7 +137,7 @@ const Ride = () => {
                     <Col xl={2} lg={2} md={2} sm={12} xs={12}></Col>
                 </Row>
             </div>
-          
+          <Footer/>
         </Container>
     );
 };
