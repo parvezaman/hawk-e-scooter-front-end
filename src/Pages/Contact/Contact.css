@@ -1,0 +1,33 @@
+.contact-top {
+  background-image: url('../../Images/contact-head.jpg');
+  height: 30rem;
+  background-position: 0% 20%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.paddingfornav {
+  padding-top: 8rem;
+  color: aliceblue;
+  font-weight: 800;
+  text-align: center;
+}
+
+.contain-box {
+  margin-top: -16rem;
+  box-shadow: 0px 0px 23px 6px rgba(4, 5, 36, 0.39);
+  border-radius: 10px;
+}
+
+.white {
+  background-color: aliceblue;
+  border-radius: 10px 0 0 10px;
+}
+
+.green {
+  /* background: rgb(94,252,53);
+background: linear-gradient(16deg, rgba(94,252,53,1) 0%, rgba(9,121,58,1) 100%); */
+  background-image: url('../../Images/side-contact.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
