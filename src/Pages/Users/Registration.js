@@ -7,7 +7,7 @@ import { TextField } from '@mui/material';
 import GoogleIcon from '@mui/icons-material/Google';
 import FacebookIcon from '@mui/icons-material/Facebook';
 
-const Users = () => {
+const Registration = () => {
     const [loginData, setLoginData] = useState({});
     const location = useLocation();
     const navigate = useNavigate();
@@ -157,4 +157,4 @@ const Users = () => {
     );
 };
 
-export default Users;
+export default Registration;

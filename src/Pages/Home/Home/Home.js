@@ -1,5 +1,4 @@
 import React from "react";
-import Users from "../../Users/Users";
 import Navigaton from "../Navigation/Navigation";
 import AboutUs from "./AboutUs/AboutUs";
 import AppBanner from "./AppBanner";

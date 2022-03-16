@@ -21,8 +21,11 @@ const Navigaton = () => {
               <Link className="navStyle me-3" to="/howtowork">
                 How To Work
               </Link>
-              <Link className="navStyle me-3" to="/users">
+              <Link className="navStyle me-3" to="/registration">
                 Registration
+              </Link>
+              <Link className="navStyle me-3" to="/login">
+                Login
               </Link>
             </Nav>
           </Navbar.Collapse>
